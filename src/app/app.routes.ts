@@ -6,7 +6,7 @@ import { ContactComponent } from './contact/contact.component';
 
 export const routes: Routes = [
   {
-    path: "dashboard",
+    path: "",
     component: DashboardComponent
   },
   {

@@ -13,7 +13,14 @@ module.exports = {
       "white": "#e0e0e0",
       "dark": "#1e1f29"
     },
-    extend: {},
+    fontFamily: {
+      raleway: ["Raleway", "sans-serif"]
+    },
+    extend: {
+      borderRadius: {
+
+      }
+    },
   },
   plugins: [],
 }
