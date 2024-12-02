@@ -1,0 +1,16 @@
+.headerIsActive {
+  /* background: linear-gradient(to right, #59517a, #b7addb); */
+  background-color:#59517a;
+  color: #000;
+  position:fixed;
+  width:100%;
+  transition: ease-in .4s;
+
+}
+
+.headerIsInactive{
+  /* background: linear-gradient(to right #1e1f29, #1e1f29); */
+  background-color:transparent;
+  color: #fff;
+  transition: ease-in .4s;
+}

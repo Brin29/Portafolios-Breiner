@@ -1,4 +1,4 @@
-<header class="fixed w-full bg-gradient-to-r from-purple-dark to-purple-semi-clean">
+<header [ngClass]="{ 'headerIsInactive': isActive, 'headerIsActive': !isActive}">
   <div class="flex justify-between p-6">
     <div class="logo">
       Logo
@@ -9,9 +9,13 @@
         <li><a class="" href="#projects">projects</a></li>
         <li><a class="">about</a></li>
         <li><a class="">contact</a></li>
+      </ul>
+    </nav>
+    <div>
+      <ul class="flex gap-3 font-raleway font-medium text-lg">
         <li><a class="">LinkeDin</a></li>
         <li><a class="">GitHub</a></li>
       </ul>
-    </nav>
+    </div>
   </div>
 </header>

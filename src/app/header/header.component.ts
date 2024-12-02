@@ -1,13 +1,27 @@
-import { Component } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { Component, HostListener} from '@angular/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-header',
-  imports: [RouterLink],
-  templateUrl: './header.component.html'
+  imports: [CommonModule],
+  templateUrl: './header.component.html',
+  styleUrl: "./header.component.css"
 })
 export class HeaderComponent {
-  changeHeader(){
+
+
+  isActive: boolean = true;
+
+  @HostListener("window:scroll", [])
+  onWindowScroll(){
+    const scrollPosition = window.scrollY || document.documentElement.scrollTop;
     
+    if (scrollPosition > 1){
+      this.isActive = false;
+    }
+
+    else{
+      this.isActive = true;
+    }
   }
 }
