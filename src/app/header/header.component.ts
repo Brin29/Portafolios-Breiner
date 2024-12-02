@@ -7,5 +7,7 @@ import { RouterLink } from '@angular/router';
   templateUrl: './header.component.html'
 })
 export class HeaderComponent {
-
+  changeHeader(){
+    
+  }
 }
