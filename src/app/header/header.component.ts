@@ -1,9 +1,10 @@
 import { Component, HostListener} from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { GithubSvgComponent } from '../github-svg/github-svg.component';
+import { LinkedinSvgComponent } from '../linkedin-svg/linkedin-svg.component';
 @Component({
   selector: 'app-header',
-  imports: [CommonModule],
+  imports: [CommonModule, GithubSvgComponent, LinkedinSvgComponent],
   templateUrl: './header.component.html',
   styleUrl: "./header.component.css"
 })
