@@ -1,6 +1,6 @@
 .headerIsActive {
   background-color:#59517a;
-  color: #000;
+  color:#fff;
   position:fixed;
   width:100%;
   transition: ease-in .4s;
