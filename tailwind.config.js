@@ -12,14 +12,14 @@ module.exports = {
       "purple-very-clean": "#eddbff",
       "white": "#e0e0e0",
       "dark": "#1e1f29",
-      "green": "#80c684"
+      "green": "#4cae4f"
     },
     fontFamily: {
       raleway: ["Raleway", "sans-serif"]
     },
     extend: {
       borderRadius: {
-
+        "4xl": "2rem"
       }
     },
   },
