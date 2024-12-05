@@ -11,7 +11,8 @@ module.exports = {
       "purple-semi-clean": "#b7addb",
       "purple-very-clean": "#eddbff",
       "white": "#e0e0e0",
-      "dark": "#1e1f29"
+      "dark": "#1e1f29",
+      "green": "#80c684"
     },
     fontFamily: {
       raleway: ["Raleway", "sans-serif"]

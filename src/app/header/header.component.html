@@ -1,21 +1,15 @@
 <header [ngClass]="{ 'headerIsInactive': isActive, 'headerIsActive': !isActive}">
-  <div class="flex content-end justify-between p-6">
+  <div class="flex justify-around p-6">
     <div class="logo">
       Logo
     </div>
     <nav>
-      <ul class="flex gap-3 content-end font-raleway font-medium text-lg">
+      <ul class="flex gap-3 font-raleway font-medium text-lg">
         <li><a class="" href="#dashboard">dashboard</a></li>
         <li><a class="" href="#projects">projects</a></li>
         <li><a class="">about</a></li>
         <li><a class="">contact</a></li>
       </ul>
     </nav>
-    <div>
-      <ul class="flex gap-3 content-end font-raleway font-medium text-lg">
-        <li><a class="" target="_blank" href="https://github.com/Brin29"><img src="github.svg" alt=""></a></li>
-        <li><a class="" href=""><img src="linkedin.svg" alt=""></a></li>
-      </ul>
-    </div>
   </div>
 </header>
