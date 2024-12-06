@@ -3,12 +3,14 @@
   color:#fff;
   position:fixed;
   width:100%;
-  transition: ease-in .4s;
+  transition: ease-in .2s;
+  z-index: 10;
 }
 
 .headerIsInactive{
   background-color:transparent;
   color: #fff;
-  transition: ease-in .4s;
+  transition: ease-in .2s;
+  z-index:10;
 }
 
