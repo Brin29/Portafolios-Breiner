@@ -11,11 +11,10 @@ export class HeaderComponent {
 
 
   isActive: boolean = true;
-
+  
   @HostListener("window:scroll", [])
   onWindowScroll(){
     const scrollPosition = window.scrollY || document.documentElement.scrollTop;
-    
     if (scrollPosition > 1){
       this.isActive = false;
     }
