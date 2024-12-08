@@ -21,7 +21,8 @@ module.exports = {
     extend: {
       borderRadius: {
         "4xl": "2rem",
-        "2xl": "1rem"
+        "3xl": "1.5rem",
+        "2xl": "1rem",
       }
     },
   },
