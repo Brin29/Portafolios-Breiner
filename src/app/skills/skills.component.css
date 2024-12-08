@@ -6,3 +6,8 @@ img{
   width:70px;
   height:80px;
 }
+
+.container-skills:hover{
+  box-shadow:0 0 5px 1px rgba(223, 223, 223, 0.13);
+  transition:.3s ease-in-out;
+}
