@@ -6,7 +6,7 @@ img {
 .hand{
     position: absolute;
     transform: rotate(0deg);
-    animation: wave 2s ease-in-out infinite;
+    animation: wave 2s infinite;
     transform-origin: bottom center;
 }
 
