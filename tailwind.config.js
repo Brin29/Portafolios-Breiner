@@ -12,7 +12,8 @@ module.exports = {
       "purple-very-clean": "#eddbff",
       "white": "#e0e0e0",
       "dark": "#1e1f29",
-      "black": "#1F2937",
+      "black": "#040403",
+      "black-hover": "#0F0E0E",
       "green": "#4cae4f",
       "blue": "#0A66C2"
     },
