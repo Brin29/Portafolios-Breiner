@@ -1,31 +1,46 @@
 <section id="projects" class="flex justify-center w-full">
-  <div class="w-4/5">
+  <div class="w-2/3">
     <h2 class="text-white font-normal text-6xl text-center">Projects</h2>
-    <div class="mt-16" >
-      <div class="flex w-full gap-14 bg-gradient-to-r from-purple-dark to-purple-semi-dark p-6 rounded-4xl">
-        <div>
+      <div class="flex w-full gap-14 rounded-4xl mt-16 py-12">
+        <div class="w-2/3">
           <img class="rounded-4xl" src="pagina-web.webp" alt="">
         </div>
-        <div class="flex flex-col justify-between">
+        <div class="flex flex-col justify-evenly w-3/4">
           <div>
-          <h3 class="text-white font-normal text-2xl">Project 1</h3>
-          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem est voluptate laboriosam porro veritatis ea enim rem obcaecati? Harum, iste in. Dolore ea voluptate ipsum odit cum, at ratione amet?</p>
+          <h3 class="text-white font-medium text-3xl">Project 1</h3>
+          <p class="text-white py-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem est voluptate laboriosam porro veritatis</p>
           </div>
-        
-          <ul class="flex flex-row gap-4 bg-dark text-white justify-evenly py-2 px-4 rounded-4xl">
-            <li>Angular</li>
-            <li>Java</li>
-            <li>Spring Boot</li>
-            <li>Spring Security</li>
-            <li>MySQL</li>
-            <li>AWS</li>
-          </ul>
+
+          <!-- Codigo -->
+          <div class="w-full flex justify-center items-end h-auto gap-20">
+
+            <div class="rounded-4xl p-4 bg-gradient-to-r from-purple-dark to-purple-semi-dark flex flex-col justify-center items-center w-4/5 gap-5">
+              <h3 class="text-white text-xl">Front-End</h3>
+              <ul class="flex flex-row gap-4">
+                <li>  
+                  <img class="w-12 h-12 transition delay-150 hover:-translate-y-2 hover:scale-120 duration-300" src="angular.svg" alt="angular" title="Angular"></li>
+                <li>
+                  <img class="w-12 h-12 transition delay-150 hover:-translate-y-2 hover:scale-120 duration-300" src="tailwind.svg" alt="tailwind" title="Tailwind"></li>
+              </ul>
+              <a class="flex items-center gap-2 rounded-4xl text-white bg-black px-5 py-2">Code <img class="w-8 h-8 m-auto" src="github.svg" alt=""></a>
+            </div>
+
+            <div class="rounded-4xl p-4 bg-gradient-to-r from-purple-dark to-purple-semi-dark flex flex-col w-5/6 justify-center items-center w-4/5 gap-5">
+              <h3 class="text-white text-xl">Back-End</h3>
+              <ul class="flex flex-row gap-4">
+                <li>  
+                  <img class="w-12 h-12 transition delay-150 hover:-translate-y-2 hover:scale-120 duration-300" src="springboot.svg" alt="springboot" title="SpringBoot"></li>
+                <li>
+                  <img class="w-12 h-12 transition delay-150 hover:-translate-y-2 hover:scale-120 duration-300" src="jwt.svg" alt="jwt" title="JWT"></li>
+                <li>
+                  <img class="w-10 h-10 transition delay-150 hover:-translate-y-2 hover:scale-120 duration-300" src="mysql.svg" alt="mysql" title="MySQL">
+                </li>
+              </ul>
+              <a class="flex items-center gap-2 rounded-4xl text-white bg-black px-5 py-2">Code <img class="w-8 h-8 m-auto" src="github.svg" alt=""></a>
+            </div>
+          </div>
         </div>
 
       </div>
-      <div></div>
-      <div></div>
-      <div></div>
-    </div>
   </div>
 </section>
