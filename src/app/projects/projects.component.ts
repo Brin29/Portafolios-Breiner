@@ -15,8 +15,8 @@ export class ProjectsComponent implements OnInit{
     this.projects = [
       {
         id: 1,
-        name: "Authorization with JWT",
-        description: "lorem",
+        name: "Authentication with JWT",
+        description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
         image: "authentication.webp",
         frontEnd: 
         this.languages = [
