@@ -16,7 +16,7 @@ export class ProjectsComponent implements OnInit{
       {
         id: 1,
         name: "Authentication with JWT",
-        description: "lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem lorem",
+        description:"JWT authentication project with Spring Security secures a REST API by handling user login, token generation, and role-based access control. Security filters validate tokens for protected routes, ensuring secure authentication.",
         image: "authentication.webp",
         frontEnd: 
         this.languages = [
@@ -49,11 +49,13 @@ export class ProjectsComponent implements OnInit{
             image: "jwt.svg"
           },
         ],
+        frontUrl: "https://github.com/Brin29/auth-register-login-front.git",
+        backUrl: "https://github.com/Brin29/login-register-microservices.git"
       },
       {
         id: 2,
         name: "Shorten Url System",
-        description: "lorem",
+        description: "A URL shortening project with Bitly, Spring Boot, and Redis shortens URLs using Bitly's API and caches them in Redis for fast retrieval. It improves performance and scalability by reducing API calls.",
         image: "urlShorten.webp",
         frontEnd: 
         this.languages = [
@@ -86,11 +88,13 @@ export class ProjectsComponent implements OnInit{
             image: "redis.svg"
           }
         ],
+        frontUrl: "https://github.com/Brin29/url-short-2.git",
+        backUrl: "https://github.com/Brin29/short-url.git"
       },
       {
         id: 3,
         name: "Chat with WebSocket",
-        description: "lorem",
+        description: "A messaging project with WebSockets, Spring Boot, and Redis enables real-time communication. WebSockets handle live message exchange, while Redis ensures scalability with pub/sub for distributed messaging.",
         image: "webSocket.webp",
         frontEnd:
         this.languages = [
@@ -122,7 +126,9 @@ export class ProjectsComponent implements OnInit{
             name: "MySQL",
             image: "mysql.svg"
           }
-        ]
+        ],
+        backUrl: "https://github.com/Brin29/web-socket.git",
+        frontUrl: "https://github.com/Brin29/web-socket.git"
       },
     ]
   }

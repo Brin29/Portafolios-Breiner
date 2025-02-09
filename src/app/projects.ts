@@ -5,6 +5,8 @@ export interface Projects {
   image: string,
   frontEnd: Languages[],
   backEnd: Languages[],
+  frontUrl: string,
+  backUrl: string
 }
 
 export interface Languages {
