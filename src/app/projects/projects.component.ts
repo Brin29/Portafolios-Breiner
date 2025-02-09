@@ -15,8 +15,8 @@ export class ProjectsComponent implements OnInit{
     this.projects = [
       {
         id: 1,
-        name: "Authentication with JWT",
-        description:"JWT authentication project with Spring Security secures a REST API by handling user login, token generation, and role-based access control. Security filters validate tokens for protected routes, ensuring secure authentication.",
+        name: "Authentication JWT with microservices",
+        description:"A JWT authentication project with Spring Security and microservices secures a REST API by managing user login, token generation, and role-based access control. Security filters validate tokens across services, ensuring secure authentication.",
         image: "authentication.webp",
         frontEnd: 
         this.languages = [

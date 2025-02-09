@@ -1,12 +1,12 @@
 <section id="projects" class="pt-28 flex justify-center w-full">
   <div class="w-4/5">
-    <h2 class="text-white font-normal text-4xl text-center">Projects</h2>
+    <h2 class="text-purple-semi-clean font-normal text-4xl text-center">Projects</h2>
 
     @for (project of projects; track project.id){
 
       <div class="flex w-full gap-14 rounded-4xl mt-4 py-12">
         <div class="w-2/3 flex flex-col gap-10">
-          <h3 class="text-white font-medium text-3xl">{{project.name}}</h3>
+          <h3 class="text-purple-very-clean font-medium text-2xl">{{project.name}}</h3>
           <img class="rounded-4xl justify-center" src={{project.image}} alt="">
         </div>
         <div class="flex flex-col justify-between w-5/6">
@@ -15,7 +15,7 @@
           <div class="w-full flex justify-center items-end h-auto gap-5">
 
             <div class="rounded-4xl p-4 py-6 flex flex-col justify-center items-center w-4/5 gap-5">
-              <h3 class="text-white text-xl">Front-End</h3>
+              <h3 class="text-purple-semi-clean text-xl">Front-End</h3>
 
               <ul class="flex flex-row gap-3">
                 @for (language of project.frontEnd; track language.id){
@@ -29,7 +29,7 @@
             </div>
 
             <div class="rounded-4xl p-4 py-6 flex flex-col w-5/6 justify-center items-center w-4/5 gap-5">
-              <h3 class="text-white text-xl">Back-End</h3>
+              <h3 class="text-purple-semi-clean text-xl">Back-End</h3>
 
               <ul class="flex flex-row gap-3">
                 @for (language of project.backEnd; track language.id){
