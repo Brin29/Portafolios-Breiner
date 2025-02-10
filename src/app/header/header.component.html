@@ -1,17 +1,21 @@
 <header [ngClass]="{ 'headerIsInactive': isActive, 'headerIsActive': !isActive }">
-  <div class="flex justify-around p-6">
+  <div class="flex justify-between mx-10 p-6">
     <div class="logo">
       Logo
     </div>
     <nav>
-      <ul class="flex gap-3 font-raleway font-light text-lg">
-        <li><a class="" href="#dashboard">dashboard</a></li>
-        <li><a class="" href="#experience">experience</a></li>
-        <li><a class="" href="#projects">projects</a></li>
-        <li><a class="" href="#skills">skills</a></li>
+      <ul class="burger-menu" (click)="toggleMenu()">
+        <img class="w-8 h-8" src="{{ !isMenuOpen ? 'menu.svg' : 'close.svg' }}" alt="">
+      </ul>
+      <ul class="menu flex gap-3 font-raleway font-light text-lg" 
+      [class.is-open]="isMenuOpen" (click)="toggleMenu()">
+        <li><a class="menu-item" href="#dashboard">dashboard</a></li>
+        <li><a class="menu-item" href="#experience">experience</a></li>
+        <li><a class="menu-item" href="#projects">projects</a></li>
+        <li><a class="menu-item" href="#skills">skills</a></li>
       </ul>
     </nav>
-    <div class="flex gap-5">
+    <div class="menu flex gap-5">
       <button class="w-7 rounded-4xl"><a target="_blank" href="https://github.com/Brin29"><img class="m-auto" src="github.svg" alt=""></a></button>
 
       <button class="w-7 rounded-4xl"><a target="_blank" href="https://www.linkedin.com/in/breiner-stiven-parra-cort%C3%A9s-5b0518273/"><img class="m-auto" src="linkedin.svg" alt=""></a></button>

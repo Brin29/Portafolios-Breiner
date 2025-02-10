@@ -8,8 +8,7 @@ import { CommonModule } from '@angular/common';
   styleUrl: "./header.component.css"
 })
 export class HeaderComponent {
-
-
+  isMenuOpen = false;
   isActive: boolean = true;
   
   @HostListener("window:scroll", [])
@@ -22,5 +21,9 @@ export class HeaderComponent {
     else{
       this.isActive = true;
     }
+  }
+
+  toggleMenu(): void {
+    this.isMenuOpen = !this.isMenuOpen;
   }
 }
