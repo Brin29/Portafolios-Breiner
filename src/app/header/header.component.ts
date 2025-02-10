@@ -23,7 +23,8 @@ export class HeaderComponent {
     }
   }
 
-  toggleMenu(): void {
-    this.isMenuOpen = !this.isMenuOpen;
+  toggleMenu(e: HTMLElement): void {
+    e.classList.toggle("hide");
   }
+
 }
