@@ -15,17 +15,6 @@
   z-index:10;
 }
 
-
-
-.logotype {
-  a {
-    padding: 0 8px;
-    font-size: 1.4rem;
-    text-decoration: none;
-    color: #07c;
-  }
-}
-
 .burger-menu {
   position: absolute;
   right:20px;
@@ -39,6 +28,7 @@
     opacity:1;
   }
 }
+
 
 .close{
   position: absolute;
@@ -82,7 +72,13 @@
       height:100vh;
       z-index:100;
       justify-content:space-evenly;
-      background-color: black;
+      background-color:#353540;
+    }
+
+    .menu-item:hover{
+      transition: ease-in-out .3s;
+      color:#b7addb;
+      scale:1.2;
     }
 
     .hide{

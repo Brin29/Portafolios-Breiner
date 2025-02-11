@@ -1,14 +1,12 @@
 <header [ngClass]="{ 'headerIsInactive': isActive, 'headerIsActive': !isActive }">
-  <div class="flex justify-between p-6">
+  <div class="flex justify-around p-6">
     <div class="logo">
-      Logo
+      <a href="#dashboard"><img class="w-8 h-8" src="logo.svg" alt=""></a>
     </div>
     <nav>
       <img (click)="toggleMenu(menu)" class="burger-menu w-8 h-8" src="menu.svg" alt="">
       
       <div #menu class="hide menu flex gap-3 font-raleway font-light text-lg">
-
-        <a (click)="toggleMenu(menu)" class="menu-item" href="#dashboard">dashboard</a>
         
         <a (click)="toggleMenu(menu)" class="menu-item" href="#experience">experience</a>
         
