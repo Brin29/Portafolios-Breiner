@@ -4,10 +4,11 @@ import { ProjectsComponent } from './projects/projects.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { SkillsComponent } from './skills/skills.component';
 import { ExperienceComponent } from './experience/experience.component';
+import { FooterComponent } from './footer/footer.component';
 
 @Component({
   selector: 'app-root',
-  imports: [HeaderComponent, DashboardComponent ,ProjectsComponent, SkillsComponent, ExperienceComponent],
+  imports: [HeaderComponent, DashboardComponent ,ProjectsComponent, SkillsComponent, ExperienceComponent, FooterComponent],
   templateUrl: './app.component.html',
 })
 export class AppComponent {
